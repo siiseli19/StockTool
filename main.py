@@ -1,16 +1,17 @@
-# This is a sample Python script.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import requests
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    pass
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+#api key = "C:\OMISTAJA\PycharmProjects".......
+
+
+
+#The Extractor API returns individual sections from 10-Q, 10-K and 8-K filings.
+# The extracted section is cleaned and standardized - in raw text or in standardized HTML.
+# You can programmatically extract one or multiple sections from any 10-Q, 10-K and 8-K filing.
