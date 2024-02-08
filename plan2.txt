@@ -1,0 +1,24 @@
+PRELIMINARY PLAN
+
+1. Scrape needed data and make a generic pipeline
+1.1 Store data into pandas dataframe for quick use
+2. Build a DCF model
+3. Sensitivity analysis with different parameters
+4. Make an Excel file of the output for comparing
+4.1 Make plots to spot trends
+5. Make a screener & apply suitable algorithms to sort data
+6. Run above pipeline in Google cloud
+7. Send email for potential buy opportunity
+8. Transformer for 10-K summaries
+
+
+'''
+Having the CIK number of a company of interest,
+one is now able to query the financial data reported by that company,
+using the companyconcept path of the SEC API [8] and the following HTTP scheme:
+https://data.sec.gov/api/xbrl/companyconcept/[CIK]/us-gaap/[Tag].json, where:
+
+CIK is the CIK number of the company,
+Tag is a tag from the US-GAAP taxonomy.
+The US-GAAP taxonomy is a collection of eXtensible Business Reporting (XBRL) tags used by
+companies for labeling financial data and reporting it to the SEC.
