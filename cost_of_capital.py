@@ -51,5 +51,8 @@ def calculate_cost_of_debt(RF, interest_coverage_ratio):
     return cost_of_debt
 
 
+def calculate_wacc():
+    pass
+
 def forecast_cashflows_and_terminal_value(wacc, perp_growth_rate, cashflows):
     pass
