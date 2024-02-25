@@ -1,4 +1,4 @@
-#functions for data ETL process
+#build WACC based on fundamentals
 
 
 #cost of debt for using Damodarans synthetic credit rating
