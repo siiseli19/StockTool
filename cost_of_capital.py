@@ -1,5 +1,7 @@
 #functions for data ETL process
 
+
+#cost of debt for using Damodarans synthetic credit rating
 def calculate_cost_of_debt(RF, interest_coverage_ratio):
     if interest_coverage_ratio > 8.5:
         # Rating is AAA
@@ -51,6 +53,13 @@ def calculate_cost_of_debt(RF, interest_coverage_ratio):
     return cost_of_debt
 
 
+#cost of equity using CAPM
+def calculate_cost_of_equity():
+    pass
+
+
+#calculate WACC using cost of equity & debt
+#debt/equity ratio
 def calculate_wacc():
     pass
 
