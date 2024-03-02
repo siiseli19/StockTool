@@ -2,7 +2,7 @@
 
 
 
-
+#build EBIT
 def calculate_EBIT():
     pass
 
@@ -14,9 +14,10 @@ def get_cashflows():
 
 
 #returns future cashflows
+#past CF as input, future CF as output
 def forecast_cashflows():
     pass
 
-
+#formul?
 def calculate_perp_growthrate():
     pass
