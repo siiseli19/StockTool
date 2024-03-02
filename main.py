@@ -1,9 +1,5 @@
 import requests
-from bs4 import BeautifulSoup
-import re
 import pandas as pd
-import time
-import seaborn as sns
 import time
 
 time.sleep(.1)
