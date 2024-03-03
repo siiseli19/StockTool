@@ -1,12 +1,18 @@
 import requests
 import pandas as pd
 import time
-from data_mining import prepare_data
+from data_mining import get_cik_code, try_out
 
 
 # Defining main function
 def main():
-    pass
+
+    ticker = 'wsm'
+    headers = {'User-Agent': "sami.ojala97@gmail.com"}
+    #returns CIK code for further use
+    CIK = get_cik_code(ticker, headers)
+    print(CIK)
+
 
 
 
