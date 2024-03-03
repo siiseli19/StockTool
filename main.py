@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 import time
-from data_mining import get_cik_code, try_out
+from data_mining import get_cik_code, get_companyfacts
 
 
 # Defining main function

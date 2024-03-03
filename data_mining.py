@@ -17,6 +17,6 @@ def get_cik_code(ticker, headers):
 
     # go through CIK codes and return ticker for further use?
 
-def try_out():
+def get_companyfacts():
     rpns = requests.get('https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json')
     print(rpns)
