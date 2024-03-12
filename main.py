@@ -11,7 +11,8 @@ def main():
     headers = {'User-Agent': "sami.ojala97@gmail.com"}
     #returns CIK code for further use
     CIK = get_cik_code(ticker, headers)
-    print(CIK)
+    print(CIK
+    print('testi')
 
 
 
